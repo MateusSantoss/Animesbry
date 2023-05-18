@@ -1,0 +1,182 @@
+body {
+	
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: ;
+	
+}
+
+html {
+	height: 100%;
+  
+  
+}
+
+
+
+/* barra de navegação */
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
+.nav-link {
+	color: white;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
+.nav-link:hover {
+	color: white;
+	background: #753DC6 ;
+	border-radius: 5px;
+
+}
+
+/* area de conteudo */
+.conteudo {
+   background: white;
+   margin-top: 20px;
+   padding: 10px;
+   border: double 2px floralwhite;
+   border-radius: 5px;
+
+
+}
+
+.conteudo img {
+	width: 600px;
+	height: 320px;
+	margin-bottom: 10px;
+	border: solid 1px #753DC6;
+}
+
+.conteudo h4 {
+	color: #0B408B;
+	margin-bottom: 0;
+	font-style: italic;
+
+}
+
+.conteudo a {
+   color: #0B408B;
+   text-decoration: none;
+   margin: 5px;
+
+}
+
+.conteudo h1 {
+	background:blue;
+	color: white;
+	border-radius: 5px;
+	margin-top: -20px;
+	font-style: italic;
+}
+
+.conteudo h1:hover {
+	background: #753DC6;
+}
+
+.conteudo img {
+	background: blue;
+}
+
+.conteudo img:hover {
+	background: #753DC6;
+}
+
+
+
+button.navbar-toggler {
+	color: #753DC6;
+
+}
+
+#postagens_recentes {
+	background: black;
+	color: white;
+	padding: 5px;
+	margin-top: 20px;
+	border-radius: 7px;
+	font-style: italic;
+	font-size: 20px;
+}
+/*__paralax__*/
+
+.caixa1,.caixa2,.caixa3,.caixa4,.caixa5 {
+	height: 100%;
+	
+	
+}
+.caixa1 {
+	
+	background: url("imagens/SpyXfamily.jpg") no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.caixa2 {
+	
+	background:  url("imagens/anime.jpg") repeat-x;
+	background-attachment: fixed;
+	
+}
+
+.caixa3 {
+	
+	background: url("imagens/Easterhands (@Easterhandz) _ Twitter.jpg") repeat-x;
+	background-attachment: fixed;
+	
+}
+
+.caixa4 {
+	background: url("imagens/tobi.jpg") no-repeat;
+	background-attachment: fixed;
+}
+.caixa5 {
+	background: url("imagens/moriaty.jpg") no-repeat;
+	background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+	.caixa1 {
+		background: url("imagens/clinok.jpg") no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 500px) {
+	.caixa1 {
+		background: url("imagens/cybr.jpg") no-repeat;
+		background-attachment: fixed;
+
+	}
+}
+
+@media (max-width: 767.98px) {
+	.caixa2 {
+		background: url("imagens/Yamato.jpg") no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.caixa3 {
+		background: url("imagens/Rorona zoro.jpg") no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.caixa4 {
+		background: url("imagens/Anime_bleach.jpg") repeat-y;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.caixa5 {
+		background: url("imagens/dbz.jpg") no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+
+
+
+
