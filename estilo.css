@@ -3,7 +3,8 @@ body {
 	height: 100%;
 	overflow-x: hidden;
 	overflow-y: ;
-	
+
+	background: rgba(0, 0, 0, 0.1);
 }
 
 html {
@@ -12,8 +13,26 @@ html {
   
 }
 
+/*página horimiya*/
+body#horimiya {
+	background: url("imagens/Horimiya February's Cover (Clean).jpg") fixed;
+
+}
+
+.conteudo_paginas h1 {
+	
+	background: blue;
+	color: white;
+	margin-bottom: 20px;
+	padding: 8px;
+	font-style: italic;
+	font-size: 1.2em;
 
 
+} 
+
+
+/*--fim página horimiya--*/
 /* barra de navegação */
 .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
 .nav-link {
@@ -26,24 +45,25 @@ html {
 	background: #753DC6 ;
 	border-radius: 5px;
 
+
 }
 
 /* area de conteudo */
-.conteudo {
+.conteudo, .conteudo_paginas {
    background: white;
    margin-top: 20px;
    padding: 10px;
-   border: double 2px floralwhite;
+   border: double 2px floralwhite;*/
    border-radius: 5px;
 
 
 }
 
-.conteudo img {
+.conteudo img, .conteudo_paginas img {
 	width: 600px;
 	height: 320px;
 	margin-bottom: 10px;
-	border: solid 1px #753DC6;
+	
 }
 
 .conteudo h4 {
@@ -91,10 +111,12 @@ button.navbar-toggler {
 	background: black;
 	color: white;
 	padding: 5px;
-	margin-top: 20px;
+
+	margin-bottom: -15px;
 	border-radius: 7px;
 	font-style: italic;
 	font-size: 20px;
+
 }
 /*__paralax__*/
 
@@ -178,5 +200,22 @@ button.navbar-toggler {
 
 
 
+/*fotter*/
+footer {
+	background: black;
+	color:yellow ;
+	font-family: italic;
+	
+}
+
+html body section#carousel {
+	margin-top: 30px;
+}
+
+body#horimiya .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
+.revi  {
+	background: #753DC6;
+	
+}
 
 
