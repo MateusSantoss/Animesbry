@@ -4,7 +4,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: ;
 
-	background: rgba(0, 0, 0, 0.1);
+	
 }
 
 html {
@@ -13,23 +13,7 @@ html {
   
 }
 
-/*página horimiya*/
-body#horimiya {
-	background: url("imagens/Horimiya February's Cover (Clean).jpg") fixed;
 
-}
-
-.conteudo_paginas h1 {
-	
-	background: blue;
-	color: white;
-	margin-bottom: 20px;
-	padding: 8px;
-	font-style: italic;
-	font-size: 1.2em;
-
-
-} 
 
 
 /*--fim página horimiya--*/
@@ -57,6 +41,10 @@ body#horimiya {
    border-radius: 5px;
 
 
+
+}
+.conteudo_paginas h1 {
+	border-radius: 6px;
 }
 
 .conteudo img, .conteudo_paginas img {
@@ -107,7 +95,7 @@ button.navbar-toggler {
 
 }
 
-#postagens_recentes {
+/*#postagens_recentes {
 	background: black;
 	color: white;
 	padding: 5px;
@@ -117,7 +105,7 @@ button.navbar-toggler {
 	font-style: italic;
 	font-size: 20px;
 
-}
+}*/
 /*__paralax__*/
 
 .caixa1,.caixa2,.caixa3,.caixa4,.caixa5 {
@@ -203,19 +191,44 @@ button.navbar-toggler {
 /*fotter*/
 footer {
 	background: black;
-	color:yellow ;
+	color:white;
 	font-family: italic;
 	
 }
+/*página horimiya*/
+body#horimiya {
+	background: url("imagens/Horimiya February's Cover (Clean).jpg") fixed;
 
-html body section#carousel {
-	margin-top: 30px;
 }
 
-body#horimiya .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
-.revi  {
-	background: #753DC6;
+.conteudo_paginas h1 {
 	
+	background: blue;
+	color: white;
+	margin-bottom: 20px;
+	padding: 8px;
+	font-style: italic;
+	font-size: 1.2em;
+
+
+} 
+
+body#Chainsaw {
+
+	background: url("imagens/bg_chainsaw.jpg") fixed;
 }
+
+/*kakkou no linazuke*/ 
+body#kakkou {
+	background: url("imagens/A-Couple-of-Cuckoos.jpg") fixed;
+}
+
+/*cyberpunk */
+body#cyberpunk {
+	background: url("imagens/cyberpunk.png") fixed;
+}
+
+
+
 
 
