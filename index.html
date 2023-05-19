@@ -7,13 +7,7 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-	<script>
-     /*mudará o background do barra de navegação	 setInterval(function () {
-	 	document.getElementById("navegacao").className = ""
-
-	 }, 4000);*/
-
-	
+	<script type="text/javascript" src="global.js">	
 	</script>
 
 	<link rel="stylesheet" type="text/css" href="estilo.css">
@@ -21,7 +15,7 @@
 	<title>AnimesBRY</title>
 	
 </head>
-<body>
+<body id="conteudo" onload="verificarTema()">
 	<header>
 		
 
@@ -109,6 +103,9 @@
 	
 
 	<!--fim-carousel-->
+	<button class="btn btn-outiline" onclick="mudarTema('escuro')">tema escuro</button>
+
+	<button class="btn btn-outiline" onclick="mudarTema('claro')">tema claro</button>
 
 	<!--caixa1-->
 	 
@@ -119,7 +116,7 @@
 	<!--/caixa1-->
 		
         <!--<h1 id="postagens_recentes">Postagens recentes</h1>-->
-		<section class="conteudo row justify-content-center">
+		<section class="conteudo  row justify-content-center" id="Horimiya">
             	
 			<h1>Horimiya - o simples bem feito</h1>
 			<h4>10/12/2022</h4>
@@ -130,7 +127,7 @@
 			
 
 			  <p>Horimiya é uma anime de comédia romântica e slice of life lançado em 2021 adaptando uma série mangá que foi publicada entre 2007 e 2011. O anime acompanha a protagonista “ Hori ” que está no ensino médio, ela aquele é tipo de garota popular que todos os caras querem ficar, e o Myiamura</p>
-			  <a href="horimiya_o_simples_bem_feito.html">ler mais</a> <a href="#">enviar um comentario</a> <a href="#"><i class="fa-brands fa-whatsapp"></i>compartilhar</a>
+			  <button type="button" href="" onclick="tema('horimiya_o_simples_bem_feito.html')"class="btn">ler mais</button>
 			
 		</section>
 
@@ -139,13 +136,13 @@
 	    </div>
 
 
-		<section class="row conteudo justify-content-center">
+		<section class="row conteudo justify-content-center"  id="chainsawman">
 			<h1>Chainsaw man</h1>
 			<h4>26/8/2022</h4>
 
 			<img src="imagens/chainsaw_man.jpg">
 
-			  <p> Recentemente foi lançado o anime Chainsaw man que acompanha a história de um jovem que trabalhar exterminando “diabos”, para pagar uma divida deixado por seu pai, e sobreviver com os lucros que recebe de seus exteminios. O anime tem ganhado grande notoriedade</p> <a href="chainsawman.html">ler mais</a> <a href="#">enviar um comentario</a> <a href="#">compartilhar</a>
+			  <p> Recentemente foi lançado o anime Chainsaw man que acompanha a história de um jovem que trabalhar exterminando “diabos”, para pagar uma divida deixado por seu pai, e sobreviver com os lucros que recebe de seus exteminios. O anime tem ganhado grande notoriedade</p> <button class="btn" href="" type="button" onclick="tema('chainsawman.html')">ler mais</button>
 			
 		</section>
 
@@ -154,29 +151,28 @@
 	    </div>
 
 
-		<section class="row conteudo justify-content-center">
+		<section class="row conteudo justify-content-center" id="conteudo" id="kakkou_no_linazuke">
 			<h1>Kakkou no linazuke: um anime divertido e cativante</h1>
 			<h4>12/4/2022</h4>
 
 			<img src="imagens/A-Couple-of-Cuckoos.jpg">
 
 			  <p>   Recentemente eu assistir o anime de comédia romântica kakkou no linazuke , logo percebi que não se tratava de uma anime comum, o anime conta a história de um garoto estudioso que descobre que foi trocado na maternidade, enfim... se dar muito spoilers, ele descobre, graças a uma ideia de seus, ideia essa que parece confusa.. tá ... deixa explicar: O Nag (garoto), foi criado por pessoas humildades, mas seus pais de verdade eram pessoas da alta sociedade, depois de anos , os pais que criaram o Nag , temiam que resolvesse ficar com os pais biológicos, então decidiram casar o nag com a Erica , a menina com a qual ele foi trocado na maternidade. Afim de assim manter ele na família, mesmo que o mesmo resolvesse moram com pais de sangue. Essa premissa não faz muito sentido, mas mesmo assim o anime é bom, tem um toque cômico muito forte, mas sem deixar de ter momentos tocantes e de reflexão, obviamente, nada muito profundo ou complexo, só coisas básicas mesmo. E claro o romance, que aqu
-             </p> <a href="kakkou no linazuke.html">ler mais</a> <a href="#">enviar um comentario</a> <a href="#">compartilhar</a>
+             </p> <button class="btn" href="" type="button" onclick="tema('kakkou no linazuke.html')">ler mais</button> 
 			
 		</section>
 		<div class="caixa4">
 			
 	    </div>
 
-		<section class="row conteudo justify-content-center">
+		<section class="row conteudo justify-content-center" id="conteudo" id="cyberpunk">
 			<h1>Cyberpunk mecenários</h1>
 			<h4>7/6/2022</h4>
 
 			<img src="imagens/cyberpunk.png">
 
 			  <p>
-             </p> <a href="cyberpunk.html">ler mais</a> <a href="#">enviar um comentario</a> <a href="#">compartilhar</a>
-			
+             </p> <button class="btn" href="" type="button" onclick="tema('cyberpunk.html')">ler mais</button> 
 		</section>
            <div class="caixa5">
 			

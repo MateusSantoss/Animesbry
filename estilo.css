@@ -39,10 +39,38 @@ html {
    padding: 10px;
    border: double 2px floralwhite;*/
    border-radius: 5px;
+   color: black;
 
 
 
 }
+
+/*Tema escuro*/
+.tema, .tema_paginas {
+	
+	background: black;
+	color: white;
+}
+
+.tema section {
+	background: black;
+	color: white;
+}
+
+.tema section h1 {
+	background: #753DC6;
+}
+
+.tema section img {
+	background: #753DC6;
+}
+
+
+/*----------*/
+
+
+
+
 .conteudo_paginas h1 {
 	border-radius: 6px;
 }
@@ -201,6 +229,17 @@ body#horimiya {
 
 }
 
+/*  tema paginas*/
+.tema_paginas  section {
+	background: black;
+	color: white;
+}
+
+.tema_paginas section h1 {
+	background:#753DC6 ;
+}
+/*---*/
+
 .conteudo_paginas h1 {
 	
 	background: blue;
@@ -228,7 +267,17 @@ body#cyberpunk {
 	background: url("imagens/cyberpunk.png") fixed;
 }
 
+body .btn {
+	background: blue;
+	color: white;
+	width: 120px;
+}
 
+body.tema .btn {
+	background: #753DC6;
+	color: white;
+	width: 120px;
+}
 
 
 
