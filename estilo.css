@@ -15,7 +15,6 @@ html {
 
 
 
-
 /*--fim página horimiya--*/
 /* barra de navegação */
 .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item
@@ -61,9 +60,21 @@ html {
 	background: #753DC6;
 }
 
-.tema section img {
-	background: #753DC6;
+
+
+.escuro:hover{
+	
+	background: #5B5B5B ;
+	cursor: default;
+	
 }
+
+.claro:hover {
+	background: #EEEEEE;
+	cursor: default;
+}
+  
+ 
 
 
 /*----------*/
@@ -104,17 +115,7 @@ html {
 	font-style: italic;
 }
 
-.conteudo h1:hover {
-	background: #753DC6;
-}
 
-.conteudo img {
-	background: blue;
-}
-
-.conteudo img:hover {
-	background: #753DC6;
-}
 
 
 
@@ -212,6 +213,28 @@ button.navbar-toggler {
 		background: url("imagens/dbz.jpg") no-repeat;
 		background-attachment: fixed;
 	}
+}
+
+@media (min-width: 1000px) {
+	.conteudo h1:hover {
+		background: #753DC6;
+	}
+
+	.conteudo img {
+		background: blue;
+	}
+
+	.conteudo img:hover {
+		background: #753DC6;
+	}
+
+	.tema section img {
+	background: #753DC6;
+    }
+
+
+
+
 }
 
 
