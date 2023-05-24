@@ -69,10 +69,27 @@ html {
 	
 }
 
+.tema #escuro {
+	display: none;
+}
+
+/* tema  claro*/
+.claro {
+	background: white;
+}
 .claro:hover {
 	background: #EEEEEE;
 	cursor: default;
 }
+
+#claro {
+	display: none;
+}
+
+.tema #claro {
+	display: block;
+}
+
   
  
 
@@ -301,6 +318,5 @@ body.tema .btn {
 	color: white;
 	width: 120px;
 }
-
 
 

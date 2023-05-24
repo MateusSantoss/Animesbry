@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<title>AnimesBRY</title>
+
+
 	
 </head>
 <body id="conteudo" onload="verificarTema()">
@@ -104,10 +106,10 @@
 
 	<!--fim-carousel-->
 	
+    <span style="font-style: italic;">Tema: </span>
+	<img style="width: 5%; height:5%; "src="imagens/icones/sun-solid.svg"onclick="mudarTema('escuro')" class="escuro" id="escuro"></img>
     
-	<img style="width: 5%; height:5%; "src="imagens/icones/sun-solid.svg"onclick="mudarTema('escuro')" class="escuro"><span class="escuro" onclick="mudarTema('escuro')">escuro</span></img>
-    
-	<img style="width: 5%; height:5%;" src="imagens/icones/sun-regular.svg" onclick="mudarTema('claro')" class="claro"><span class="claro" onclick="mudarTema('claro')">claro</span></img>
+	<img style="width: 5%; height:5%;" src="imagens/icones/sun-regular.svg" id="claro" onclick="mudarTema('claro')" class="claro"></img>
 
 	<!--caixa1-->
 	 
@@ -174,6 +176,7 @@
 			<img src="imagens/cyberpunk.png">
 
 			  <p>
+			  	 Oi,vem ver o que a galera está achando de cyberpunk mercenários, eu já assitir os 5 primeiros episódios
              </p> <button class="btn" href="" type="button" onclick="tema('cyberpunk.html')">ler mais</button> 
 		</section>
            <div class="caixa5">
