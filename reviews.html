@@ -6,6 +6,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 	 <!--recupera o tema da url,  que foi passado através da função tema() que está na pagina index.html localizado
     	no onclik do link pra essa página-->
 	<script type="text/javascript">
@@ -15,7 +16,7 @@
 			tema = tema.replace('?', '')
 			console.log(tema)
 			if (tema === 'escuro') {
-               document.getElementById('cyberpunk').className = 'tema_paginas'
+               document.getElementById('reviews').className = 'tema_paginas'
 			} 
 
 		}
@@ -33,15 +34,13 @@
 					
 	</script>
 
-	<script type="text/javascript" src="global.js"></script>
-
 	
 
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<title>AnimesBRY</title>
 	
 </head>
-<body id="cyberpunk" onload="verificarTema()">
+<body id="reviews" onload="verificarTema()">
 	<header>
 		
 
@@ -56,10 +55,10 @@
 		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		      <ul class="navbar-nav">
 		        <li class="nav-item">
-		          <button type="button" class="btn  nav-link active " onclick="paginaIncial()" aria-current="page" href="">Página incial</button>
+		          <button class=" btn nav-link active " onclick="paginaIncial()" aria-current="page" href="">Página incial</button>
 		        </li>
 		        <li class="nav-item">
-		          <a  class="nav-link" href="" onclick="tema('reviews.html')">reviews</a>
+		          <a class="nav-link" href="reviews">reviews</a>
 		        </li>
 		        <li class="nav-item">
 		          <a class="nav-link" href="#">Top animes</a>
@@ -84,57 +83,60 @@
 
 
 	</header>
+        
+			<!--Cards-->
+		<div class="row justify-content-center">
+			<h5 class="row justify-content-center">Reviews</h5>
+	        <div class="card col-md-2" style="width: 18rem;">
+			  <img src="imagens/chainsaw_man.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Chainsaw Man</h5>
+			    <p class="card-text">O homem-moto-serra ataca novamente</p>
+			    <a href="#" class="btn btn-primary">Ir para página</a>
+	  	       </div>
+	        </div>
 
-	<div class="container">
-	<section class="conteudo_paginas row justify-content-center">
-		
-        <h1>Primeiras impressões de cyberpunk
-        mercenários</h1>
+			<div class="card col-md-2" style="width: 18rem;">
+			  <img src="imagens/Lucy - Cyberpunk Edgerunners.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Cyberpunk</h5>
+			    <p class="card-text">Um anime triste</p>
+			    <a href="#" class="btn btn-primary">Ir para página</a>
+			  </div>
+			</div>
 
-        <h4>O anime chegou com tudo, recebendo elogios e 100%
-        de aprovação no rotten tomatoes</h4>
 
-		<img src="imagens/Lucy - Cyberpunk Edgerunners.jpg">
-		
-		<p>
-			O anime é baseado no game cyberpunk 2077, porem sua história é original. Na trama um adolescente chamado David vira um mercenário para sobreviver.
-			
-		</p>
+			<div class="card col-md-2" style="width: 18rem;">
+			  <img src="imagens/Amano_Erika.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Kakkou no linazuke</h5>
+			    <p class="card-text">Um anime engraçado e muito louco</p>
+			    <a href="#" class="btn btn-primary">Ir para página</a>
+			  </div>
+			</div>
 
-		<p>
-			O anime é ambientado em futuro digamos distópico, onde fazer modificações corporais agora está na moda, e quase impossível encontrar alguém 100% humano.
-			
-		</p>
 
-		<p>
-			A história é bem madura, e profunda, até certo ponto, também divertida. os personagens "secundários" são carismáticos, mesmo que roteiro não os desenvolva a primeiro ponto (nota, eu só assisti os 5 primeiros episódios). A propósito, o roteiro é muito bom, consegue trazer uma veia cômica, mas sem deixar passar as críticas socias, que aliás são bem sutis. Drama, comédia, ação, ficção cientifica tudo na medida, o visual do anime é incrível, as cenas de ação impecáveis e put@ que p@riu, que direção hein. A dublagem em português não fica atrás trazendo aquela pegada bem brasileira, só vocês assistindo pra ver.
-		</p>
-
-		<p>
-			
-           o Anime está disponível na Netflix e conta com 10 episódios.
-		<p>
-			Minha nota: 9.4
-		</p>
-
-		<p>nota do imdb: 8,7
-
-.</p>
-	</div>
-
-	</section>
-
+			<div class="card col-md-2" style="width: 18rem;">
+			  <img src="imagens/Horimiya February's Cover (Clean).jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Horimiya</h5>
+			    <p class="card-text">Perfeito</p>
+			    <a href="#" class="btn btn-primary">Ir para página</a>
+			  </div>
+			</div>	
+		</div><!--cards-->
 		
 	
+    
 
-	    <footer><!--rodapé-->
-	    	
-	    	   <h5 class="row justify-content-center">
-             	   &copy; AnimesBry todos os direitos reservados.
-               </h5>
-	    	
-	             
-	    </footer><!--fim do rodapé-->
+
+
+
+
+
+
+
+	
 			
 			
      

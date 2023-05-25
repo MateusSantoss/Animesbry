@@ -278,6 +278,18 @@ body#horimiya {
 .tema_paginas section h1 {
 	background:#753DC6 ;
 }
+
+.tema_paginas div {
+	background: black;
+	color: white;
+}
+
+.tema_paginas .card {
+	border: white 2px double;
+}
+.tema_paginas .row .card a {
+	background: #753DC6;
+}
 /*---*/
 
 .conteudo_paginas h1 {
@@ -318,5 +330,25 @@ body.tema .btn {
 	color: white;
 	width: 120px;
 }
+
+/*cards*/
+#reviews .row .card {
+	margin: 20px 10px;
+}
+#reviews .row .card img {
+	
+	height: 400px;
+
+}
+
+#reviews .row .card p {
+	height: 70px;
+}
+
+#reviews .row .card a {
+	background: blue;
+}
+
+
 
 
